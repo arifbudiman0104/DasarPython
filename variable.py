@@ -1,8 +1,31 @@
 # variable adalah tempat menyimpan data
 
-a = 2020
-b = 1996
-c = a - b
-print('Usia ', c)
-print('Usia ', a)
-print('Usia ', b)
+# menaruh / assignment nilai
+
+a = 10
+x = 5
+panjang = 1000
+
+
+# pemanggilan pertama
+print('Nilai a =', a)
+print('Nilai x =', x)
+print('Nilai panjang =', panjang)
+
+# untuk copy satu line caranya dengan alt + shift + panah bawah
+
+# penamaan
+# tidak boleh dipisah, jika panjang gunakan _
+nilai_y = 15
+juta10 = 10000000
+nilaiZ = 17.5
+
+
+# pemanggilan kedua
+print('Nilai a =', a)
+a = 7
+print('Nilai a =', a)
+
+#assignment indirect
+b = a
+print('Nilai b =', b)
